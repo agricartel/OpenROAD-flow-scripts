@@ -111,3 +111,5 @@ if {[info exists ::env(GALLERY_REPORT)]  && $::env(GALLERY_REPORT) != 0} {
 }
 write_db $::env(RESULTS_DIR)/4_1_cts.odb
 write_sdc -no_timestamp $::env(RESULTS_DIR)/4_cts.sdc
+# Generate routing definition for detailed routing testing
+write_def $::env(RESULTS_DIR)/des3_nangate45_preroute.def
