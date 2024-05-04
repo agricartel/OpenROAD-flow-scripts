@@ -6,7 +6,7 @@ cd "$(dirname $(readlink -f $0))/../"
 
 baseDir="$(pwd)"
 # docker hub organization/user from where to pull/push images
-org=openroad
+org=agricartel
 
 _help() {
     cat <<EOF
